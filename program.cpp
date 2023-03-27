@@ -16,18 +16,18 @@ int main() {
         result = sub(a, b);
         break;
     case Mul:
-        cout << "Mul=" << c;
+        result = mul(a, b);
         break;
     case Div:
-        cout << "Div=" << c;
+        result = div(a, b);
         break;
     default:
         cout << "Error: wrong number of function\n";
         return 1;
     }
 
-    // Вывод результата
-    cout << "Результат: " << result << endl;
+    // result
+    cout << "result: " << result << endl;
 
     return 0;
 }
